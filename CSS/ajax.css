@@ -1,0 +1,139 @@
+body{
+    text-align:center ;
+    background:  rgba(30, 159, 199, 0.432);;
+}
+
+div.Topo{
+display: flex;
+padding-left: 100px;
+padding-top:10px ;
+padding-bottom: 10px;
+margin-bottom: 5px;
+background: rgb(30, 160, 199);
+}
+
+div.Topo h1{
+    font-style:oblique ;
+    color:white;
+}
+
+#cep{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Logradouro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Bairro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Complemento{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Cidade{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Estado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button.buscar{
+    background: rgb(69, 145, 145);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    width: 15%; 
+    margin-top: auto;
+    padding: 10px;
+}
+
+button.limpar{
+    background: rgb(69, 145, 145);
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background: rgb(69, 145, 145, 0.5);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+form {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px;
+}
+
+
+.linha {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 30px; 
+    margin-bottom: 20px; 
+}
+
+
+.campo {
+    flex: 1; 
+    max-width: calc(33.33% - 20px); 
+}
+
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.campo-cep {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    flex: 1;
+    max-width: calc(50% - 10px); 
+}
+
+
+.campo-cep input {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.campo-cep button {
+    width: 100%;
+    margin-top: 5px;
+    flex: 0 0 30%; 
+}
+
+.campo-cep-botao {
+    display: flex;
+    flex: 1; 
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar cep</title>
+    <link rel="stylesheet" href="CSS/ajax.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+</head>
+<body>
+    <div class="Topo">
+        <h1>Sobre <br>Você</h1>
+    </div>
+        <form id="form">
+            <div class="linha">
+                <div class="campo-cep">
+                    <label>CEP:</label>
+                    <input id="cep" type="text"  placeholder="XXXXX-XXX">
+                </div>
+                <div class="campo-cep-botao">
+                    <button class="buscar" onclick="buscarCEP()"><i class="mdi mdi-earth"></i></button>
+                </div>
+            </div>
+
+            <div class="linha">
+                <div class="campo">
+                    <label>Logradouro:</label>
+                    <input type="text" id="Logradouro" placeholder="Rua">
+                </div>
+                <div class="campo">
+                    <label>Bairro:</label>
+                    <input type="text" id="Bairro" placeholder="seu bairro">
+                </div>
+                <div class="campo">
+                    <label>Cidade:</label>
+                    <input type="text" id="Cidade" placeholder="Sua cidade">
+                </div>
+            </div>
+
+            <div class="linha">
+                <div class="campo">
+                    <label>Estado:</label>
+                    <input type="text" id="Estado" placeholder="Sigla do uf">
+                </div>
+                <div class="campo">
+                    <label>Complemento:</label>
+                    <input type="text" id="Complemento" placeholder="seu complemento">
+                </div>
+            </div>
+            <button type="button" class="limpar" onclick="limparCampos(true)">Limpar Campos</button>
+        </form>   
+        <script src="js/ajax.js"></script>
+</body>
+</html>
